@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="MCD_Fibo_Alfil.MainWindow"
+        Title="MCD_Fibo_Alfil">
+        
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        Bienvenido! Elige una opcion:
+                </Label>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button x:Name="Mcd" Content="Calcular MCD" Click="OnMcdClick" />
+                        <Button x:Name="Fibo" Content="Serie de Fibonaci" Click="OnFiboClick" />
+                        <Button x:Name="Alfi" Content="Ruta del alfil" Click="OnAlfiClick" />
+                </StackPanel>
+                <Grid Grid.Row="2">
+                </Grid>
+        </Grid>
+
+
+</Window>
+

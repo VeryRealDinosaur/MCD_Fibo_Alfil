@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="MCD_Fibo_Alfil/Alfi.axaml" value="MCD_Fibo_Alfil/MCD_Fibo_Alfil.csproj" />
+        <entry key="MCD_Fibo_Alfil/Fibo.axaml" value="MCD_Fibo_Alfil/MCD_Fibo_Alfil.csproj" />
+        <entry key="MCD_Fibo_Alfil/Fibonaci.axaml" value="MCD_Fibo_Alfil/MCD_Fibo_Alfil.csproj" />
+        <entry key="MCD_Fibo_Alfil/MainWindow.axaml" value="MCD_Fibo_Alfil/MCD_Fibo_Alfil.csproj" />
+        <entry key="MCD_Fibo_Alfil/Mcd.axaml" value="MCD_Fibo_Alfil/MCD_Fibo_Alfil.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
